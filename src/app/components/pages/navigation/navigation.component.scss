@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+.container {
+    min-width: 1315px;
+    max-width: 1315px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0;
+/*     border: 1px solid red; */
+    p{
+        font-family: "Khand", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    nav{
+        font-family: "Kavivanar", cursive;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .navigation1{
+            gap: 50px;
+           
+        }
+        .navigation2{
+            margin-left: 15em;
+            gap: 50px;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            li {
+                list-style: none;
+                :hover{
+                    cursor: pointer;
+                }
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+    }
+    
+    }
+}

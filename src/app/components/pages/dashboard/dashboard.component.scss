@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+.dash-container {
+    // border: 1px solid red;
+    margin-top: -35px;
+    min-width: 1315px;
+    max-width: 1315px;
+
+    .hero-left {
+        .sub {
+            margin-top: -110px;
+
+            p {
+                font-size: 18px;
+                letter-spacing: 6.5px;
+            }
+        }
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+
+            .contained {
+                margin-top: -215px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                img {
+                    width: auto;
+                    height: 100px;
+                }
+            }
+
+            p {
+                font-family: "Kavivanar", cursive;
+                font-size: 100px;
+                letter-spacing: 3.5px;
+            }
+        }
+    }
+
+    .hero-right {
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            height: auto;
+            width: 40%;
+        }
+    }
+
+    .btn-shoplink {
+
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 150px;
+        background-color: #F0ADBE;
+        font-weight: 500;
+        font-size: 15px;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 50px;
+            height: 50px;
+
+        }
+    }
+
+
+    .container-count {
+        // border: 1px solid red;
+        margin-top: 2rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+        margin-left: 15rem;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+
+        .general {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .highlight {
+                font-size: 6dvh;
+                margin: 0 0 -25px 0;
+            }
+        }
+
+    }
+
+
+    .CategoryThumbnail {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 30px;
+        // border: 1px solid red;
+
+        .generalPosition {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-weight: 400;
+                font-size: 25px;
+            }
+
+        }
+
+        img {
+            width: 75%;
+            height: inherit;
+            margin-bottom: -10px;
+            border-radius: 20px;
+        }
+
+    }
+
+    .CollectionBoard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+
+        .title {
+            font-size: 55px;
+
+            p {
+                font-family: "Kavivanar", cursive;
+            }
+        }
+
+        .collection-albums {
+            margin-top: -5vh;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15vh;
+            justify-items: center;
+
+            .gen {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+            }
+
+            .drop {
+                margin-top: 20vh;
+            }
+
+            img {
+                border-radius: 15px;
+                width: 80%;
+                height: inherit;
+            }
+        }
+
+
+        .explore-collection-btn {
+            border: 1px solid #000;
+            border-radius: 15px;
+
+            .contained {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0 20px 0 20px;
+
+                img {
+                    width: 5vw;
+                }
+            }
+
+        }
+
+
+
+
+    }
+
+    .catalogue-container {
+        margin-top: 30px;
+        margin-bottom: 10vh;
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 5px;
+            font-size: 55px;
+
+            .title {
+                font-family: "Kavivanar", cursive;
+            }
+
+            .sub {
+                font-size: 25px;
+            }
+
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 65px;
+        }
+        .g1{
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            margin: 10px;
+            padding: 25px 0 25px 0;
+            font-size: 25px;
+            text-align: center;
+          }
+
+
+        .categories-btn{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .contained {
+                border: 1px solid #000;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 20%;
+                img {
+                    width: 5vw;
+                }
+            }
+
+        }
+
+
+    }
+
+    .StorySection{
+        margin-top: 30px;
+        margin-bottom: 10vh;
+        border: 1px solid red;
+        img{
+            width: 30%;
+        }
+    }
+}

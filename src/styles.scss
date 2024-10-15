@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+*{
+    
+    // font-family: "Kavivanar", cursive;
+    font-family: "Khand", sans-serif;
+    /* 3 - 7 */
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+   /*  border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
